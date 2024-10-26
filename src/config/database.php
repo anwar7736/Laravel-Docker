@@ -43,16 +43,6 @@ return [
         ],
 
         'mysql' => [
-            'read' => [
-                'host' => [
-                    '127.0.0.1:3307', //Slave Server
-                ],
-            ],
-            'write' => [
-                'host' => [
-                    '127.0.0.1:3306', //Master Server
-                ],
-            ],
             'driver' => 'mysql',
             'url' => env('DB_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
